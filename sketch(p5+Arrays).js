@@ -48,12 +48,12 @@ function createHearts(x,y){
     parts of the orginal code in order to change certain functions;
     I only wanted the hearts to apear from three different points
     rather than completely random ones. I also made it so that the 
-    hearts would only be triggered when the user clicks the "Scratches?"
-    button. Another change I made was not interupting the appearance of
+    hearts would only be triggered when the user clicks the "scratch?"
+    buttons. Another change I made was not interupting the appearance of
     hearts after the button is pressed. I did this because I though it
     suits my continuting appeciation of cats. Aside from those major,
     changes, the only other things I modified were the smaller things
-    like matching variables and variabke placement etc. 
+    like matching variables and variable placement etc. 
 */
 
 function setup(){
@@ -116,7 +116,7 @@ button3.mousePressed(function(){
 */
 }
 
-// Code from Week 8 's class - See Week8-secondHalf Module for more (1 of 2)
+// Code from Week 8 's class - See Week8-secondHalf Module for more (2 of 2)
 function draw(){
     
     for(hh of explode){
