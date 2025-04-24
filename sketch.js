@@ -3,6 +3,7 @@ var y = 0;
 
 function setup(){
     createCanvas(720,480);
+    background("lavender");
 }
 
 function draw(){
