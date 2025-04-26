@@ -3,7 +3,7 @@
 
 
 function setup(){
-    let cvn = createCanvas(windowWidth,5000);
+    let cvn = createCanvas(windowWidth,3000);
     background('lavender');
     cvn.position('fixed', 0,0);
     //cvn.style(z-index: 10);
@@ -12,8 +12,6 @@ function setup(){
     titleImg.position(100,0);
     titleImg.size(1020,300);
 
-
-    
 
     let catImg = createImg('cute cat.jpg');
     catImg.position(100,500);
