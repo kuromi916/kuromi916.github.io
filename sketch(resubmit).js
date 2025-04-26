@@ -9,7 +9,7 @@ function setup(){
     //cvn.style(z-index: 10);
 
     let titleImg = createImg("My Website.PNG");
-    titleImg.position(100,100);
+    titleImg.position(100,0);
     titleImg.size(1020,300);
 
 
