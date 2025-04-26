@@ -3,9 +3,10 @@
 
 
 function setup(){
-    createCanvas(windowWidth,3000);
+    let cvn = createCanvas(windowWidth,3000);
     background('lavender');
-
+     cvn.position('fixed', 0,0);
+    
     let titleImg = createImg("My Website.PNG");
     titleImg.position(100,0);
     titleImg.size(1020,300);
