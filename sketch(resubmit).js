@@ -3,7 +3,7 @@
 
 
 function setup(){
-    let cvn = createCanvas(windowWidth,3000);
+    let cvn = createCanvas(windowWidth,2000);
     background('lavender');
      cvn.position('fixed', 0,0);
     
