@@ -22,7 +22,7 @@ function setup(){
     Laufey.position(900,500);
     Laufey.size(500,500);
 
-    let B2 = createA('"https://www.youtube.com/watch?v=0AEi7Rg7nS0&list=RD0AEi7Rg7nS0&start_radio=1&rv=vI1NpvSWTy"', ' One of my favourite songs - Bored by Laufey')
+    let B2 = createA('https://www.youtube.com/watch?v=0AEi7Rg7nS0&list=RD0AEi7Rg7nS0&start_radio=1&rv=vI1NpvSWTy', ' One of my favourite songs - Bored by Laufey')
     B2.position(1000,1020);
     rect(985, 1015, 310, 30, 20);  // x, y , width, height , curve
     
